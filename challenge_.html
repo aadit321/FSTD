@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sticky Nav Fix</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: aqua;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      background-color: rgb(169, 169, 242);
+    }
+
+    ol {
+      display: flex;
+      list-style: none;
+      padding: 10px;
+      margin: 0;
+    }
+
+    .c4 {
+      padding-left: 30px;
+      font-weight: bold;
+    }
+
+    .c5 {
+      padding: 15px;
+      background-color: rgb(234, 203, 162);
+      border: 2px solid;
+      width: 90%;
+      margin: 30px auto;
+      height: 450px;
+      overflow-y: auto;
+    }
+
+    .c6 {
+      padding: 10px;
+      background-color: brown;
+      border: 2px solid;
+      font-size: 40px;
+      margin: 40px auto;
+      width: 90%;
+      text-align: center;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ol>
+      <li class="c4">home</li>
+      <li class="c4">contact</li>
+      <li class="c4">about</li>
+      <li class="c4">help</li>
+    </ol>
+  </nav>
+
+  <div class="c5">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit fuga atque quibusdam repellat assumenda...
+    (repeat this 4-5 times to simulate scroll)
+  </div>
+
+  <div class="c5">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit fuga atque quibusdam repellat assumenda...
+    (repeat again here)
+  </div>
+
+  <div class="c6">
+    This Is the 5 Challenge of Web Development Processes
+  </div>
+
+</body>
+</html>

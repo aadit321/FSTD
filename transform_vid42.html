@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .c1{
+            height: 80vw;
+            width: 80vw;
+            border: 2px solid;
+        }
+        .c2{
+            background-color: blanchedalmond;
+            height:40px;
+            width: 40px;
+            border: 2px solid;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            
+        }
+        .c3:hover{
+            background-color: blue;
+            transform: rotate(180deg);
+            transition-property: transform,background-color ;
+            transition-duration: 3s;
+            transition-timing-function: ease-in-out;
+            /* transition-delay: 1s; */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="c1">
+        <div class="c2 c3">
+            box
+        </div>
+    </div>
+</body>
+</html>
